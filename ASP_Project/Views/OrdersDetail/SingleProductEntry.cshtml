@@ -1,0 +1,23 @@
+﻿<div class="form-group row  mb-1 single-product-data">
+ 
+    <label class="col-form-label col-1">Product</label>
+    <div class="col-4">
+        @Html.DropDownList("SingleProductId", ViewBag.products as SelectList, "-----Select-----", new { @class = "form-control singleProductDropdown" })
+    </div>
+    <label class="col-form-label col-1">Quantity</label>
+  
+    <div class="col-2">
+        @Html.TextBox("SingleProductQuantity", "", new { @class = "form-control", @Value = "1", Type = "number" } )
+    </div>
+
+    <label class="col-form-label col-1">Price</label>
+    <div class="col-2">
+        @Html.TextBox("SingleProductPrice", "", new { @class = "form-control product-price", @readonly = true })
+    </div>
+    <div class="col-1">
+        <button type="button" class="btn btn-outline-danger btn-sm single-product-delete"><i class="fa fa-trash"></i></button>
+    </div>
+
+</div>
+
+@*<select asp-for="BuyerId" class="form-control" asp-items="ViewBag.BuyerId"></select>*@

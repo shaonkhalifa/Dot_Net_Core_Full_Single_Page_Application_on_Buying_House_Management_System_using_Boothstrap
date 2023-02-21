@@ -1,0 +1,38 @@
+﻿@model ASP_Project.Models.Order
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="text-center">Create</h1>
+
+<h4 class="text-center">Order List</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form id="OrderAddForm" asp-action="Create" enctype="multipart/form-data">
+           
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mb-2">
+                <label  class="control-label mb-2">Buyer Name</label>
+               @* <select asp-for="BuyerId" class ="form-control" asp-items="ViewBag.BuyerId"></select>*@
+                @Html.DropDownListFor(x => x.BuyerId, ViewBag.buyer as SelectList, "-----Select-----", new { @class = "form-control" })
+            </div>
+            <hr />
+            <h2 class="text-center">Product List</h2>
+            <div id="SingleProductSection" class="mb-2">
+               @* @Html.Action("SingleProductEntry")*@
+            </div>
+
+            <div class="mb-2 d-flex justify-content-end">
+                <button id="AddSingleProduct" class="btn btn btn-primary" type="button">+</button>
+            </div>
+            <div class="form-group mt-2">
+                <input type="submit" data-category="CRUD" id="btnOrderCreateFormSubmit" data-href="@Url.Action("Create","OrdersDetail")" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+

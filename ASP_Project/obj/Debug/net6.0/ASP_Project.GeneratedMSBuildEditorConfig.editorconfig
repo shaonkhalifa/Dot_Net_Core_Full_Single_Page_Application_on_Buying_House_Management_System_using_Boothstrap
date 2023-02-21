@@ -1,0 +1,161 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ASP_Project
+build_property.RootNamespace = ASP_Project
+build_property.ProjectDir = C:\Users\mdsha\OneDrive\Desktop\TodayUpload\Dot Net Core\Project\ASP_Project\ASP_Project\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mdsha\OneDrive\Desktop\TodayUpload\Dot Net Core\Project\ASP_Project\ASP_Project
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Areas/Identity/Pages/Account/Lockout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/BuyersDetails/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJzRGV0YWlsc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/BuyersDetails/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJzRGV0YWlsc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/BuyersDetails/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJzRGV0YWlsc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/CategoriesDetails/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc0RldGFpbHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/CategoriesDetails/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc0RldGFpbHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/CategoriesDetails/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc0RldGFpbHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/OrdersDetail/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzRGV0YWlsXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/OrdersDetail/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzRGV0YWlsXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/OrdersDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzRGV0YWlsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/OrdersDetail/SingleProductEditEntry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzRGV0YWlsXFNpbmdsZVByb2R1Y3RFZGl0RW50cnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/OrdersDetail/SingleProductEntry.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzRGV0YWlsXFNpbmdsZVByb2R1Y3RFbnRyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/ProductsDetalis/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNEZXRhbGlzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/ProductsDetalis/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNEZXRhbGlzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/ProductsDetalis/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNEZXRhbGlzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/Role/AssignRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxBc3NpZ25Sb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/Shared/_error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9lcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/Shared/_success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9zdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mdsha/OneDrive/Desktop/TodayUpload/Dot Net Core/Project/ASP_Project/ASP_Project/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-d9rqvnerjl

@@ -1,0 +1,55 @@
+﻿@model ASP_Project.ViewModels.ProductVM
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="text-center">Create</h1>
+
+<h4 class="text-center">Product Detalis</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12 ">
+        <form id="ProductAddForm" asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mt-2">
+                <label asp-for="ProductName" class="control-label mb-1"></label>
+                <input asp-for="ProductName" class="form-control" />
+                <span asp-validation-for="ProductName" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <label asp-for="CategoryId" class="control-label mb-1"></label>
+                <select asp-for="CategoryId" class ="form-control" asp-items="ViewBag.CategoryId"></select>
+               @* @Html.DropDownListFor(x => x.CategoryId, ViewBag.categories as SelectList, "-----Select-----", new { @class = "form-control" })*@
+            </div>
+            <div class="form-group mt-2">
+                <label asp-for="Price" class="control-label mb-1"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <label asp-for="ManufacturingDate" class="control-label mb-1"></label>
+                <input asp-for="ManufacturingDate" class="form-control" />
+                <span asp-validation-for="ManufacturingDate" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <label asp-for="Picture" class="control-label mb-1"></label>
+                <input asp-for="Picture" class="form-control" type="file" />
+                <span asp-validation-for="Picture" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check mt-2">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="InStock" /> @Html.DisplayNameFor(model => model.InStock)
+                </label>
+            </div>
+            <div class="form-group mt-2">
+                <input type="submit" data-category="CRUD" id="btnProductCreateFormSubmit" data-href="@Url.Action("Create","ProductsDetalis")" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@*<link href="~/lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+<link href="~/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+<a href="~/lib/font-awesome/css/font-awesome.css.map">~/lib/font-awesome/css/font-awesome.css.map</a>*@

@@ -1,0 +1,39 @@
+﻿@model ASP_Project.Models.Buyer
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1 class="text-center">Edit</h1>
+
+<h4 class="text-center">Buyer</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form id="CustomersEditForm" asp-action="Edit" enctype="multipart/form-data">
+            
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="BuyerId" />
+            <div class="form-group">
+                <label asp-for="BuyerName" class="control-label mt-2"></label>
+                <input asp-for="BuyerName" class="form-control mt-2" />
+                <span asp-validation-for="BuyerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BuyerAddress" class="control-label mt-2"></label>
+                <input asp-for="BuyerAddress" class="form-control mt-2" />
+                <span asp-validation-for="BuyerAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <input type="submit" data-category="CRUD" id="btnCustomerAddFormSubmit" data-href="@Url.Action("Edit","BuyersDetails")" value="Update" class="btn btn-warning" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,29 @@
+﻿@model ASP_Project.Models.Category
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="text-center">Create</h1>
+
+<h4 class="text-center">Category</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form id="CategoryAddForm" class=" m-auto p-0" asp-action="Create" enctype="multipart/form-data">
+          
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group ">
+                <label asp-for="CategoryName" class="control-label mt-2"></label>
+                <input asp-for="CategoryName" class="form-control mt-2" />
+                <span asp-validation-for="CategoryName" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <input type="submit" value="Create" data-category="CRUD" id="btnCategoryAddFormSubmit" data-href="@Url.Action("Create","CategoriesDetails")" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+

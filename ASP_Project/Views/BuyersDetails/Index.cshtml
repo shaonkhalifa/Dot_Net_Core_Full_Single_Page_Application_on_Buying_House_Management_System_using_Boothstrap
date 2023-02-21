@@ -1,0 +1,85 @@
+﻿@model IEnumerable<ASP_Project.Models.Buyer>
+
+
+@using ASP_Project.Models
+@{
+    ViewBag.Title = "Index";
+    List<Order> orders = ViewBag.orders;
+}
+<div class="d-flex justify-content-between mt-2">
+    <h3>Buyer List</h3>
+    <a href="@Url.Action("Create","BuyersDetails")" id="BtnAddNewCustomer" class="btn btn-outline-primary btn-sm mr-2 mb-2">Add New</a>
+</div>
+@if (Model.Count() > 0)
+{
+    <table class="table table-bordered table-hover table-hover table-responsive-sm  ">
+        <tr>
+            <th>Buyer Name</th>
+            <th>Address</th>
+            <th width="160">Action</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            bool foreignKey = orders.Where(x => x.BuyerId == item.BuyerId).Count() > 0;
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BuyerName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BuyerAddress)
+                </td>
+                <td width="160">
+                    <a href="@Url.Action("Edit","BuyersDetails",new { id=item.BuyerId})" class="btn btn-outline-success btn-sm BtnEditProduct"><i class="fa fa-edit"></i> Edit</a>
+                    <a href="@Url.Action("Delete","BuyersDetails",new { id=item.BuyerId})" class="btn btn-outline-danger btn-sm toyDelete BtnDeleteProduct @((foreignKey) ? "disabled" : "")"><i class="fa fa-trash"></i> Delete</a>
+                </td>
+            </tr>
+        }
+
+    </table>
+
+}
+else
+{
+    <div class="alert alert-info">No customer found !</div>
+}
+
+@*
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BuyerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BuyerAddress)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BuyerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BuyerAddress)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.BuyerId">Edit</a> | 
+                <a asp-action="Delete" asp-route-id="@item.BuyerId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>*@
